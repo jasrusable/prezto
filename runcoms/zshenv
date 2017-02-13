@@ -18,8 +18,5 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 eval "$(thefuck --alias f)"
 
-# The next line updates PATH for the Google Cloud SDK.
-source '/home/jason/Downloads/google-cloud-sdk/path.zsh.inc'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-# The next line enables shell command completion for gcloud.
-source '/home/jason/Downloads/google-cloud-sdk/completion.zsh.inc'
